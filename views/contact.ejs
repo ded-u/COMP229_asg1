@@ -1,0 +1,45 @@
+<!---contact.ejs
+Daniel Dobrowney
+Student ID: 301339355
+Dec 17, 2023--->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  
+  <!---Main Body-->
+  <body>
+    <%- include('partials/header') %>
+    <p><%= title %>, if needed.</p>
+
+    
+  <!---Contact Form-->
+    <div class="container">
+        <div class="column" style="max-width: 250px; margin: auto;">
+            <h2>Contact Form</h2>
+            <form action="/" method="get" style="display: flex; flex-direction: column; gap: 10px;">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+                <br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+                <br>
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber">
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>

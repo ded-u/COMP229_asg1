@@ -1,0 +1,47 @@
+/* style.css
+  Daniel Dobrowney
+  Student ID: 301339355
+  Dec 17, 2023
+*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* background color */
+  color: #333; /* text color */
+}
+
+header {
+  background-color: #ddd; /* header background color */
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #ccc; /* nav background color */
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #555; /* nav text color */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff; /* container background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* box shadow */
+  margin: 10px;
+}

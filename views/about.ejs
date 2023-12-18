@@ -1,0 +1,45 @@
+<!---about.ejs
+Daniel Dobrowney
+Student ID: 301339355
+Dec 17, 2023--->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  <!---Main Body-->
+  <body>
+    <%- include('partials/header') %>
+    <p>Here is where I talk <%= title %></p>
+    <div class="container">
+      
+  <!---Column 1-->
+        <div class="column">
+            <h2>Hobbies and Interests</h2>
+            <p>
+                <ul>
+                <li>I like pizza, but perhaps not as much as some students</li>
+                <li>I like playing video games, but sadly, haven't in 6 months.</li>
+                <li>I like like writing code</li>
+                <li>I like growing with my family</li>
+                </ul>
+            </p>
+        </div>
+
+   
+  <!---Column 2-->     
+        <div class="column">
+            <h2>Goals</h2>
+            <p>
+              <ul>
+                <li>My dream job, is one that holds no monetary aspect</li>
+                <li>I dream of owning my own house one day, sooner than later</li>
+                <li>I aim to have a much more successful year in 2024</li>
+              </ul>
+              </p>
+        </div>
+  </body>
+</html>
